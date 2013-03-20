@@ -26,7 +26,7 @@ public class AddressTask extends IAddressTask {
 		super(context);
 		this.postType = postType;
 	}
-	
+	//change more
 	@Override
 	public HttpResponse execute(JSONObject params) throws Exception {
 		HttpClient httpClient = new DefaultHttpClient();
